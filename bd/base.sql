@@ -1,0 +1,41 @@
+/*
+SQLyog Community Edition- MySQL GUI v6.55
+MySQL - 5.7.3-m13-log : Database - testephp
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`testephp` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `testephp`;
+
+/*Table structure for table `nota` */
+
+DROP TABLE IF EXISTS `nota`;
+
+CREATE TABLE `nota` (
+  `Id` int(10) NOT NULL AUTO_INCREMENT,
+  `CNPJ` varchar(100) DEFAULT NULL,
+  `Arquivo` varchar(100) DEFAULT NULL,
+  `Procotolo` varchar(100) DEFAULT NULL,
+  `NotaFiscal` varchar(100) DEFAULT NULL,
+  `Loja` varchar(100) DEFAULT NULL,
+  `Email` varchar(100) DEFAULT NULL,
+  `Prod` varchar(100) DEFAULT NULL,
+  `Valor` float DEFAULT NULL,
+  `Data` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+
+/*Data for the table `nota` */
+
+insert  into `nota`(`Id`,`CNPJ`,`Arquivo`,`Procotolo`,`NotaFiscal`,`Loja`,`Email`,`Prod`,`Valor`,`Data`) values (4,'07656745000233','649646464646.xml','Venda de Mercadoria','42955447','Luiz Felipe Forcato','tiago.silva@care-br.com','ADAPTADOR MICRO-USB  MACHO  PARA USB FEM',5,'2019-09-24T12:16:54-03:00'),(5,'07656745000233','649646464646.xml','Venda de Mercadoria','42955447','Luiz Felipe Forcato','tiago.silva@care-br.com','ADAPTADOR MICRO-USB  MACHO  PARA USB FEM',5,'2019-09-24T12:16:54-03:00'),(6,'03616814000305','31200803616814000305550040004918211087789127.xml','remessa para venda fora estabelecimento','08778912','INGENICO DO BRASIL LTDA','xml.ingenico@care-br.com','TERM ELETR MOV50Bx-512+256CL3GWB VIVO',9480,'2020-08-05T17:38:20-03:00'),(7,'09066241000884','35201209066241000884550010000201701856793856-proc.xml','Devolucao de Mercadoria','85679385','SAMSUNG ELETRONICA DA AMAZONIA LTDA','Sem Email','PLACA DE CIRCUITO IMPRESSO MONTADA COM C - EAN:',1637.51,'2020-12-18T15:09:17-03:00'),(8,'09066241000884','35201209066241000884550010000201701856793856-proc.xml','Devolucao de Mercadoria','85679385','SAMSUNG ELETRONICA DA AMAZONIA LTDA','Sem Email','PLACA DE CIRCUITO IMPRESSO MONTADA COM C - EAN:',1637.51,'2020-12-18T15:09:17-03:00'),(9,'09066241000884','35201209066241000884550010000201701856793856-proc.xml','Devolucao de Mercadoria','85679385','SAMSUNG ELETRONICA DA AMAZONIA LTDA','Sem Email','PLACA DE CIRCUITO IMPRESSO MONTADA COM C - EAN:',1637.51,'2020-12-18T15:09:17-03:00');
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
