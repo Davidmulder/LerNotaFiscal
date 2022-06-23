@@ -33,7 +33,7 @@ Leitura de Nota fiscal em XML
 
 ## Tecnologia usada
 
-Usado do modelo de framework Visual studio, padrão MVC
+PHP puro sem framework,com base de dados mysql lendo arquivo xml
 
 - ⚛️ **PHP** — PHP classico para servidor windows
 -  💹 **MYSQL** — banco de dados 
