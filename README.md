@@ -6,7 +6,7 @@
 Leitura de Nota fiscal em XML
 </h1>
 
-<p align="center">Sistema de cadastro de Usuarios e Contatos </p>
+<p align="center">sistema de leitura , arquivamento e gravação em banco registro de nota fiscal em xml </p>
 
 <p align="center">
   <a href="#">
@@ -35,14 +35,15 @@ Leitura de Nota fiscal em XML
 
 Usado do modelo de framework Visual studio, padrão MVC
 
-- ⚛️ **ASP** — ASP classico para servidor windows
--  💹 **C#** — para framework visual studio 2020
--  💹 **C#** — Banco de dados Sql server
+- ⚛️ **PHP** — PHP classico para servidor windows
+-  💹 **MYSQL** — banco de dados 
+-  💹 **xml** — arquivo de leitura
 
 
 ## Modelos
 
 1. Hospedado GITHUB 
+2. Foi Desenvolvido para teste para empresa CARE Br
 
 
 ### Equipe de desenvolvimento
